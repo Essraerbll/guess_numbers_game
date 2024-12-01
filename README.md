@@ -30,7 +30,7 @@ Please give a number to guess: 750 The number is lower than your guess!
 Enjoy the game! 🎉
 
 
-
+### TÜRKÇE AÇIKLAMASI ###
 
 ### Sayı Tahmin Oyunu
 Bu, Python ile yapılmış basit bir sayı tahmin oyunudur.
