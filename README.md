@@ -28,3 +28,40 @@ Please give a number to guess: 750 The number is lower than your guess!
 ... Congratulations! You guessed the number 732 in 6 attempts!
 
 Enjoy the game! 🎉
+
+
+
+
+### Sayı Tahmin Oyunu
+Bu, Python ile yapılmış basit bir sayı tahmin oyunudur.
+Program, 0 ile 1000 arasında rastgele bir sayı seçer ve oyuncu bu sayıyı tahmin etmeye çalışır. 
+Oyun, tahminin çok yüksek veya çok düşük olduğuna dair ipuçları verir.
+
+### Nasıl Oynanır
+Script'i bir Python yorumlayıcısında çalıştırın.
+"Adam" olup olmadığınızı sorar (Evet için Y, Hayır için N).
+Eğer "Adam" iseniz:
+0 ile 1000 arasında bir sayı girerek tahmin yapın.
+Doğru sayıyı tahmin etmek için 10 denemeniz olacak.
+Oyunu istediğiniz zaman -1 girerek sonlandırabilirsiniz.
+Doğru tahmini yaparsanız kazanırsınız! Eğer denemeleriniz biterse kaybedersiniz.
+
+### Özellikler
+
+Geçersiz girişleri (örneğin, sayısal olmayan girişler) düzgün bir şekilde ele alır.
+Her tahminde geri bildirim verir (daha yüksek/daha düşük).
+Basit ve kullanıcı dostu bir arayüze sahiptir.
+Gereksinimler
+Python 3.x
+
+### Örnek Çalışma
+
+Are you Adam? (Y/N): Y
+Guess a number between 0 and 1000. Type -1 to quit the game.
+Please give a number to guess: 500
+The number is higher than your guess!
+Please give a number to guess: 750
+The number is lower than your guess!
+...
+Congratulations! You guessed the number 732 in 6 attempts!
+
